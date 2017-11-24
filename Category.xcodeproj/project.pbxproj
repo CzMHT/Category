@@ -14,6 +14,12 @@
 		9EA819471FC7F67F00C61B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA819461FC7F67F00C61B30 /* Assets.xcassets */; };
 		9EA8194A1FC7F67F00C61B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA819481FC7F67F00C61B30 /* LaunchScreen.storyboard */; };
 		9EA8194D1FC7F67F00C61B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8194C1FC7F67F00C61B30 /* main.m */; };
+		9EA8195C1FC7F6E300C61B30 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA819571FC7F6E300C61B30 /* UIColor+RGB.m */; };
+		9EA819631FC7F73300C61B30 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA819621FC7F73300C61B30 /* UIImage+Extension.m */; };
+		9EA8196A1FC7F87300C61B30 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA819661FC7F87300C61B30 /* NSString+Base64.m */; };
+		9EA8196B1FC7F87300C61B30 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA819691FC7F87300C61B30 /* NSString+YYAdd.m */; };
+		9EA8196F1FC7F90C00C61B30 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8196E1FC7F90C00C61B30 /* UIView+Toast.m */; };
+		9EA819731FC7FA8E00C61B30 /* attributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA819721FC7FA8E00C61B30 /* attributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,19 @@
 		9EA819491FC7F67F00C61B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EA8194B1FC7F67F00C61B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA8194C1FC7F67F00C61B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EA819571FC7F6E300C61B30 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		9EA8195A1FC7F6E300C61B30 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		9EA819611FC7F73300C61B30 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		9EA819621FC7F73300C61B30 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		9EA819641FC7F78900C61B30 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9EA819661FC7F87300C61B30 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		9EA819671FC7F87300C61B30 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		9EA819681FC7F87300C61B30 /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		9EA819691FC7F87300C61B30 /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		9EA8196D1FC7F90C00C61B30 /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		9EA8196E1FC7F90C00C61B30 /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		9EA819711FC7FA8E00C61B30 /* attributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributedLabel.h; sourceTree = "<group>"; };
+		9EA819721FC7FA8E00C61B30 /* attributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,11 @@
 		9EA8192E1FC7F67F00C61B30 = {
 			isa = PBXGroup;
 			children = (
+				9EA819701FC7FA7A00C61B30 /* UILabel */,
+				9EA8196C1FC7F8EA00C61B30 /* UIView */,
+				9EA819651FC7F85100C61B30 /* NSString */,
+				9EA819601FC7F6F500C61B30 /* UIImage */,
+				9EA8195F1FC7F6EE00C61B30 /* RGB */,
 				9EA819391FC7F67F00C61B30 /* Category */,
 				9EA819381FC7F67F00C61B30 /* Products */,
 			);
@@ -64,6 +88,7 @@
 				9EA8193B1FC7F67F00C61B30 /* AppDelegate.m */,
 				9EA8193D1FC7F67F00C61B30 /* ViewController.h */,
 				9EA8193E1FC7F67F00C61B30 /* ViewController.m */,
+				9EA819641FC7F78900C61B30 /* PrefixHeader.pch */,
 				9EA819401FC7F67F00C61B30 /* Main.storyboard */,
 				9EA819461FC7F67F00C61B30 /* Assets.xcassets */,
 				9EA819481FC7F67F00C61B30 /* LaunchScreen.storyboard */,
@@ -72,6 +97,53 @@
 				9EA819431FC7F67F00C61B30 /* Category.xcdatamodeld */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		9EA8195F1FC7F6EE00C61B30 /* RGB */ = {
+			isa = PBXGroup;
+			children = (
+				9EA8195A1FC7F6E300C61B30 /* UIColor+RGB.h */,
+				9EA819571FC7F6E300C61B30 /* UIColor+RGB.m */,
+			);
+			path = RGB;
+			sourceTree = "<group>";
+		};
+		9EA819601FC7F6F500C61B30 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				9EA819611FC7F73300C61B30 /* UIImage+Extension.h */,
+				9EA819621FC7F73300C61B30 /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		9EA819651FC7F85100C61B30 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				9EA819681FC7F87300C61B30 /* NSString+YYAdd.h */,
+				9EA819691FC7F87300C61B30 /* NSString+YYAdd.m */,
+				9EA819671FC7F87300C61B30 /* NSString+Base64.h */,
+				9EA819661FC7F87300C61B30 /* NSString+Base64.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		9EA8196C1FC7F8EA00C61B30 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9EA8196D1FC7F90C00C61B30 /* UIView+Toast.h */,
+				9EA8196E1FC7F90C00C61B30 /* UIView+Toast.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		9EA819701FC7FA7A00C61B30 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				9EA819711FC7FA8E00C61B30 /* attributedLabel.h */,
+				9EA819721FC7FA8E00C61B30 /* attributedLabel.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA8196F1FC7F90C00C61B30 /* UIView+Toast.m in Sources */,
 				9EA8193F1FC7F67F00C61B30 /* ViewController.m in Sources */,
+				9EA819731FC7FA8E00C61B30 /* attributedLabel.m in Sources */,
+				9EA8196B1FC7F87300C61B30 /* NSString+YYAdd.m in Sources */,
+				9EA8195C1FC7F6E300C61B30 /* UIColor+RGB.m in Sources */,
 				9EA819451FC7F67F00C61B30 /* Category.xcdatamodeld in Sources */,
 				9EA8194D1FC7F67F00C61B30 /* main.m in Sources */,
 				9EA8193C1FC7F67F00C61B30 /* AppDelegate.m in Sources */,
+				9EA819631FC7F73300C61B30 /* UIImage+Extension.m in Sources */,
+				9EA8196A1FC7F87300C61B30 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +361,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.Category;
@@ -296,6 +376,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.Category;
